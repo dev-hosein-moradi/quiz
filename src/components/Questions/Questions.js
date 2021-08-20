@@ -42,6 +42,7 @@ function Questions({
   const history = useHistory();
   function handleQuit() {
     history.push("/");
+    setScore(0);
   }
   return (
     <div className="questions">
