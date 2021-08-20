@@ -90,7 +90,7 @@ function RoadMap({ correct, selected }) {
     <div className="roadMap">
       <div className="dots-lines">
         <span className={`dots ${dot1}`}>1</span>
-        <span className={`lines`}>.</span>
+        <span className={`lines`}></span>
         <span className={`dots ${dot2}`}>2</span>
         <span className={`lines`}></span>
         <span className={`dots ${dot3}`}>3</span>
