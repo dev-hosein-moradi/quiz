@@ -109,7 +109,7 @@ function RoadMap({ correct, selected }) {
         <span className={`lines`}></span>
         <span className={`dots ${dot10}`}>10</span>
       </div>
-    </div>
+    </div> 
   );
 }
 export default RoadMap;
