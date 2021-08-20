@@ -22,7 +22,7 @@
 }
 .errorMassage {
   width: 75%;
-  height: 30px;
+  height: 38px;
   display: flex;
   justify-content: center;
   padding: 5px;
@@ -81,7 +81,7 @@
   .ques-feild {
     font-size: 12.5pt;
   }
-  .errorMassage{
+  .errorMassage {
     width: 98%;
   }
 }
