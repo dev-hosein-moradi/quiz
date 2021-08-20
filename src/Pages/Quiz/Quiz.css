@@ -19,3 +19,8 @@
   font-weight: 400;
   margin: 15px 0;
 }
+@media (max-width: 620px) {
+  .quiz-info {
+    width: 95%;
+  }
+}
