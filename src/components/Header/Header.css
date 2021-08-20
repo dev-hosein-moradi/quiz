@@ -1,0 +1,16 @@
+.title {
+  text-transform: uppercase;
+  font-size: 5.5vw;
+  cursor: pointer;
+  font-family: "EB Garamond", serif;
+  color: #235473;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divider {
+  margin: 10px;
+  width: 65%;
+}

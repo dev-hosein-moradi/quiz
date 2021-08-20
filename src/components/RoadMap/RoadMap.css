@@ -1,0 +1,39 @@
+.roadMap {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  justify-content: center;
+}
+.dots-lines {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dots {
+  background-color: #e0e0e0;
+  width: 45px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 5px 9px;
+  margin: 0 3px;
+  text-align: center;
+}
+.lines {
+  width: 25%;
+  height: 2px;
+  background-color: #c9c5c5;
+}
+.greenDot {
+  background-color: rgb(7, 207, 0);
+}
+.redDot {
+  background-color: rgb(233, 0, 0);
+}
+@media (max-width: 620px) {
+  .dots {
+    margin: 0;
+  }
+}

@@ -1,0 +1,84 @@
+.questions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Arvo", serif;
+}
+.ques-feild {
+  width: 95%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-family: "Padauk", sans-serif;
+  background-color: #235473;
+  color: #e0e0e0;
+  font-size: 14pt;
+  border-radius: 4px;
+  word-wrap: break-word;
+}
+.errorMassage {
+  width: 60%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #f8485e;
+  color: white;
+  font-family: "Arvo", serif;
+  border-radius: 10px;
+}
+.options {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.options button {
+  width: 46%;
+  height: 50px;
+  padding: 15px 20px;
+  margin: 10px;
+  font-family: "Arvo", serif;
+  color: #000000;
+  font-size: 15pt;
+  border: none;
+  border-radius: 5px;
+}
+.controls {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.controls Button {
+  width: 40%;
+  display: flex;
+  background-color: #ffc200;
+  font-family: "Arvo", serif;
+  color: #000000;
+  font-size: 14pt;
+}
+.controls Button:hover {
+  border: 1px solid #ffc200;
+  color: #e0e0e0;
+}
+.select {
+  background-color: rgb(7, 207, 0);
+  color: white;
+}
+.wrong {
+  background-color: rgb(233, 0, 0);
+  color: white;
+}
+@media (max-width: 620px) {
+  .options button {
+    width: 100%;
+  }
+  .ques-feild {
+    font-size: 12.5pt;
+  }
+}

@@ -1,0 +1,36 @@
+.result {
+  display: flex;
+  justify-content: space-around;
+}
+.result-info {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-family: "Arvo", serif;
+  color: #235473;
+}
+.first-title {
+  margin: 0 0 40px 0;
+}
+.result-banner {
+  width: 50%;
+  height: 450px;
+  align-self: center;
+  padding: 3px;
+}
+
+@media (max-width: 800px) {
+  .result {
+    flex-direction: column-reverse;
+  }
+  .result-info {
+    width: 100%;
+  }
+  .result-banner {
+    width: 100%;
+  }
+}
