@@ -21,7 +21,7 @@
   word-wrap: break-word;
 }
 .errorMassage {
-  width: 60%;
+  width: 75%;
   height: 30px;
   display: flex;
   justify-content: center;
@@ -80,5 +80,8 @@
   }
   .ques-feild {
     font-size: 12.5pt;
+  }
+  .errorMassage{
+    width: 98%;
   }
 }
